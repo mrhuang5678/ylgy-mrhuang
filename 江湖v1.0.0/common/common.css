@@ -1,0 +1,152 @@
+/*全局css文件 */
+
+/*默认字体颜色 */
+.f-color {
+	color: #636263;
+}
+
+/*选中字体颜色 */
+.f-a-color {
+	color: #49BDFB;
+}
+
+/*未选中中字体颜色 */
+.f-a1-color {
+	color: #00BDFB;
+}
+
+/*背景颜色 */
+.bg-color {
+	bj-color: #00BDFB;
+}
+
+/* 单选按钮 */
+.uni-px-5 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* justify-content: space-between;
+	justify-content: space-around; */
+
+	/* padding-left: 50rpx;
+	padding-right: 10px; */
+
+}
+
+/* 距离边框 */
+.jl-bk {
+	width: 95%;
+	margin: 20px auto;
+}
+
+/* 上下间距 */
+.sx-jj {
+	margin: 10px 0;
+}
+
+/* 底部固定*/
+.db-gd {
+	height: 50px;
+	/* border-top: 1px solid #f1f1f1; */
+	isplay: flex;
+	width: 100%;
+	position: fixed;
+	/* background-color: #fff; */
+	/* bottom: 0; */
+	/* 新增以下代码 */
+	padding-bottom: constant(safe-area-inset-bottom);
+	padding-bottom: env(safe-area-inset-bottom);
+	box-sizing: content-box;
+	/* display: flex; */
+	/* position: fixed; */
+	/* left: 0;
+	right: 0;
+	left: var(--window-left);
+	right: var(--window-right);
+	bottom: 0; */
+}
+
+/* 圆角 */
+.y-j {
+	/* width: 200rpx; */
+	height: 25px;
+	display: flex;
+	margin-top: 10rpx;
+	justify-content: center;
+	border-radius: 8px;
+	border: 3rpx solid #6699ff;
+}
+
+
+/* 底部文本居中*/
+.db-wwb {
+	/* width: 100%;
+	position: fixed;
+	bottom: 0; */
+	color: #2F3541;
+	/* text-align: center; */
+	/* height:30px */
+	background-color: #EC7A00;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: center;
+}
+
+/* 底部文本居中*/
+.db-wb {
+	/* width: 100%;
+	position: fixed;
+	bottom: 0; */
+	color: #2F3541;
+	/* text-align: center; */
+	/* height:30px */
+	background-color: #30EC00;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: center;
+}
+
+/* 文本居中*/
+.wb-jz {
+	margin: 10px 0;
+	text-align: center;
+	/* height:30px */
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+/* 1、上下居中（垂直居中） */
+.sp-czjz {
+	style="height:40px;
+background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+/* 2、左右居中（水平居中） */
+.zy-spjz {
+	style="height:40px;
+background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* 3、左右居中（水平居中） */
+.zy-spjz1 {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* 头像 */
+.my-tx {
+	@include flex;
+	align-items: center;
+}
